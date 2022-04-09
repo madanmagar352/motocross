@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ================= Swiper css ================= -->
+    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+<!-- ================= remix icon ================= -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+<!-- ================= css ================= -->
+    <link rel="stylesheet" href="style.css">
+    <title>moto cross</title>
+</head>
+<body>
+    <!-- ================= HEADER ================= -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <!-- <i class="ri-steering-line"></i> -->
+                motocross
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">Popular</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">Featured</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+        </nav>
+    </header>
+
+    <!-- ================= MAIN ================= -->
+    <main class="main">
+        <!-- ================= HOME ================= -->
+        <section class="home section" id="home">
+            <div class="shape shape__big"></div>
+            <div class="shape shape__small"></div>
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Choose The Best Bike
+                    </h1>
+
+                    <h2 class="home__subtitle">
+                        Ducati Panigale v4
+                    </h2>
+
+                    <h3 class="home__elec">
+                        <i class="ri-flashlight-fill"></i>
+                        Super Bike
+                    </h3>
+                </div>
+                <img src="image/panigale_v4.png" alt="" class="home__img">
+                <div class="home__bike">
+                    <div class="home__bike-data">
+                        <div class="home__bike-icon">
+                            <i class="ri-gas-station-line"></i>
+                        </div>
+                        <h2 class="home__bike-number">15 Kmpl</h2>
+                        <h3 class="home__bike-name">Mileage</h3>
+                    </div>
+
+                    <div class="home__bike-data">
+                        <div class="home__bike-icon">
+                            <i class="ri-spectrum-line"></i>
+                        </div>
+                        <h2 class="home__bike-number">1103 cc</h2>
+                        <h3 class="home__bike-name">Engine</h3>
+                    </div>
+
+                    <div class="home__bike-data">
+                        <div class="home__bike-icon">
+                            <i class="ri-battery-line"></i>
+                        </div>
+                        <h2 class="home__bike-number">15 Litres</h2>
+                        <h3 class="home__bike-name">Tank Capacity</h3>
+                    </div>
+                </div>
+                <a href="#" class="home__button" id="btn-sound">START</a>
+            </div>
+        </section>
+
+        <!-- ================= ABOUT ================= -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__group">
+                    <img src="image/v4 front.png" alt="">
+
+                    <div class="about__card">
+                        <h3 class="about__card-title">211.2 HP</h3>
+                        <p class="about__card-description">
+                            New Panigale V4: The Evolution of Speed - Ducati
+                        </p>
+                    </div>
+                </div>
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                    DUCATI:"In Lightness <br> My Strength"
+                    </h2>
+                    <p class="about__description">
+                        The Ducati Panigale V4 is a sport bike with a 1,103 cc (67.3 cu in) desmodromic 90° V4 engine introduced by Ducati in 2018
+                    </p>
+                    <a href="#" class="button">Know more</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= POPULAR ================= -->
+        <section class="popular section" id="popular">
+            <h2 class="section__title">
+                Choose Your Super Bike <br>
+                From All Brands
+            </h2>
+
+            <div class="popular__container container swiper">
+                <div class="swiper-wrapper">
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">MV Agusta</h1>
+                        <h3 class="popular__subtitle">F3</h3>
+                        <img src="image/agusta f3.png" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 Sec
+                            </div>
+
+                            <div class="popular__data-group">
+                                <i class="ri-funds-line"></i> 299 Km/h
+                            </div>
+
+                            <div class="popular__data-group">
+                                <i class="ri-gas-station-fill"></i> Gas
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price">$21,798.00</h3>
+                        <button class="button popular__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Yamaha</h1>
+                        <h3 class="popular__subtitle">YFZ R1M</h3>
+                        <img src="image/r1M.png" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 Sec
+                            </div>
+
+                            <div class="popular__data-group">
+                                <i class="ri-funds-line"></i> 299 Km/h
+                            </div>
+
+                            <div class="popular__data-group">
+                                <i class="ri-gas-station-fill"></i> Gas
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price">$17,399</h3>
+                        <button class="button popular__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Kawasaki</h1>
+                        <h3 class="popular__subtitle">Ninja h2</h3>
+                        <img src="image/h2.png" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 Sec
+                            </div>
+
+                            <div class="popular__data-group">
+                                <i class="ri-funds-line"></i> 299 Km/h
+                            </div>
+
+                            <div class="popular__data-group">
+                                <i class="ri-gas-station-fill"></i> Gas
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price">$55,000</h3>
+                        <button class="button popular__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">BMW</h1>
+                        <h3 class="popular__subtitle">S1000R</h3>
+                        <img src="image/s1000r.png" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 Sec
+                            </div>
+
+                            <div class="popular__data-group">
+                                <i class="ri-funds-line"></i> 299 Km/h
+                            </div>
+
+                            <div class="popular__data-group">
+                                <i class="ri-gas-station-fill"></i> Gas
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price">$27,650</h3>
+                        <button class="button popular__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Honda</h1>
+                        <h3 class="popular__subtitle">CBR1000RR</h3>
+                        <img src="image/cbr.png" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 Sec
+                            </div>
+
+                            <div class="popular__data-group">
+                                <i class="ri-funds-line"></i> 299 Km/h
+                            </div>
+
+                            <div class="popular__data-group">
+                                <i class="ri-gas-station-fill"></i> Gas
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price">$28,500</h3>
+                        <button class="button popular__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- ================= FEATURES ================= -->
+        <section class="features section">
+            <h2 class="section__title">
+                More Features
+            </h2>
+            <div class="features__container container grid">
+                <div class="features__group">
+                    <img src="image/v4 top.png" alt="" class="f__img">
+                    <div class="features__card features__card-1">
+                        <h3 class="features__card-title">
+                            214 PS <br> 13000 rpm
+                        </h3>
+                        <p class="features__card-description">
+                            Max Power
+                        </p>
+                    </div>
+
+                    <div class="features__card features__card-2">
+                        <h3 class="features__card-title">
+                            1103 cc
+                        </h3>
+                        <p class="features__card-description">
+                            Displacement
+                        </p>
+                    </div>
+
+                    <div class="features__card features__card-3">
+                        <h3 class="features__card-title">
+                            4
+                        </h3>
+                        <p class="features__card-description">
+                            Cylinders
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= FEATURED ================= -->
+        <!-- <section class="featured section">
+            <h2 class="section__title">
+                Featured Expensive Bikes
+            </h2>
+            <div class="featured__container container">
+                <ul class="featured__filters">
+                    <li>
+                        <button class="featured__item">
+                            <span>all</span>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="featured__item">
+                            <span>all</span>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="featured__item">
+                            <span>all</span>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="featured__item">
+                            <span>all</span>
+                        </button>
+                    </li>
+
+                </ul>
+            </div>
+
+            
+        </section> -->
+
+        <!-- ================= OFFER ================= -->
+        <section class="offer section"></section>
+        <!-- ================= LOGOS ================= -->
+        <section class="logos section"></section>
+
+    </main>
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer section">
+        <div class="shape shape__big"></div>
+        <div class="shape shape__small"></div>
+
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Motocross
+                </h3>
+                <a href="#" class="footer__logo">
+
+                </a>
+            <p class="footer__description">
+                We offer the best super bikes of <br>
+                the most recognized brands in <br>
+                the world
+            </p>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">
+                Company
+            </h3>
+
+            <ul class="footer__links">
+                <li>
+                    <a href="" class="footer__link">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="footer__link">
+                        Bikes
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="footer__link">
+                        History
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="footer__link"></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">
+                Information
+            </h3>
+
+            <ul class="footer__links">
+                <li>
+                    <a href="" class="footer__link">Request a quote</a>
+                </li>
+
+                <li>
+                    <a href="" class="footer__link">Bikes</a>
+                </li>
+
+                <li>
+                    <a href="" class="footer__link">Contact us</a>
+                </li>
+
+                <li>
+                    <a href="" class="footer__link">Services</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">
+                Follow us
+            </h3>
+            <ul class="footer__social">
+                <a href="https://facebook.com/" target="_blink "class="footer__social-link">
+                    <i class="ri-facebook-fill"></i>
+                </a>
+
+                <a href="https://instagram.com/" target="_blink "class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+
+                <a href="https://twitter.com/" target="_blink "class="footer__social-link">
+                    <i class="ri-twitter-line"></i>
+                </a>
+            </ul>
+        </div>
+
+        </div>
+
+        <span class="footer__copy">
+            &#169; Madan. All rights reserved
+        </span>
+    </footer>
+
+    <!-- ================= SCROLL UP ================= -->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <!-- ================= SCROLL REVEAL ================= -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+        <!-- ================= swiper js ================= -->
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+        <!-- ================= MIXITP JS ================= -->
+
+<!-- ================= main js ================= -->
+    <script src="main.js"></script>
+</body>
+</html>
